@@ -9,52 +9,66 @@
 body {
     margin: 0;
     font-family: 'Kalam', cursive;
-    color:var(--top);
-    background-color: var(--back);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='46' height='46' fill-opacity='0.6' fill='%23ffa61d'/%3E%3C/svg%3E");  
 }
 
-.nav{
-    background-color: var(--base);
-    width: 100%;
-    padding: 1rem;
-    margin:auto;
-    top: 0;
+Header{
+    text-align: center;
+    color:black;
+    background-color:#FFCA77;
+    border:1px solid white;
 }
-
-.textarea {
-    border: 2px solid var(--black);
-    box-sizing: border-box;
+ 
+.IP-field {
     display: block;
-    width: 400px;
-    height: 100px;
-    margin:auto;
+    margin: auto;
+    width: 50%;
+    height: 10vh;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: white;
+    border: 3px solid #FFCA77;
+    padding: 1rem;
+}
+
+.OP-field{
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
     margin-top: 2rem;
-    font-family: 'Kalam', cursive;
-    font-size: large;
-
-}
-
-.tbutton {
-    width: 100px;
-    margin:auto;
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    padding: 0.3rem;
-    text-align: center;
-    color:var(--top);
-    font-family: 'Kalam', cursive;
-    background-color:var(--base) ;
-}
-
-.footer {
-    position: fixed;
-    margin:auto;
-    bottom: 0;
-    width: 100%;
+    width: 50%;
+    height: 10vh;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: white;
+    border: 3px solid #FFCA77;
     padding: 1rem;
-    background-color: var(--base);
+}
+.btn-translate{
+    background-color:#FFCA77;;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 10%;
+    height: 5vh;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color:black;
+    font-size:12px ;
+    font-weight: bold;
+    border: 0.9px solid white;
+    padding: 0.5rem;
+    
+}
+.OPDiv{
+    font-size: 30px;
+    display: block;
+    margin: auto;
     text-align: center;
 }
-
+footer{
+    text-align: center;
+    background-color:#FFCA77;
+    margin-top:1rem;
+    border:1px solid white;
+}
